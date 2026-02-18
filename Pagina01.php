@@ -6,8 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
+<!-- ECHO serve para voce mostrar algo para seu cliente -->
 
-    ?>
+    <?php echo "hello world!!"; ?>
+
 </body>
 </html>
