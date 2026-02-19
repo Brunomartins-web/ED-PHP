@@ -23,7 +23,31 @@
     <h3><?php echo $nome . " " . $sobrenome; ?></h3>
 
 
+    <?php
+// Unir .=
+    $a = 10;
+    $b = 20;
     
+    $a .= $b;
+
+    echo $a;
+
+    ?>
+
+<br>
+<br>
+
+    <?php
+// Somar +=
+    $a = 10;
+    $b = 20;
+    
+    $a += $b;
+
+    echo $a;
+
+    ?>
+
 
 </body>
 </html>
