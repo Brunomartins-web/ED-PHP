@@ -9,8 +9,21 @@
     <?php 
     //criando variavel
     $nomeCompleto = "Alguém";
-?>
-    <h2>Nome completo: <?php echo $nomeCompleto; ?></h2>
+
+    echo "<p><b>Nome Completo</b>:
+    $nomeCompleto => Interpolação</p>";
+    echo '<p><b>Nome Completo</b>: $nomeCompleto => NÃO INTERPOLA</p>';
+    
+    // concatenasão - juntar as coisas 
+    
+    $nome = "Fulano";
+    $sobrenome = "de Tal";
+    ?>
+
+    <h3><?php echo $nome . " " . $sobrenome; ?></h3>
+
+
+    
 
 </body>
 </html>
