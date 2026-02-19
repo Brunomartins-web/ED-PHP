@@ -8,7 +8,10 @@
 <body>
 <!-- ECHO serve para voce mostrar algo para seu cliente -->
 
-    <?php echo "hello world!!"; ?>
+    <?php echo "<h1>hello world!!</h1>"; ?>
 
+    <h2>SENAC</h2>
+
+    <?php phpinfo() ?>
 </body>
 </html>
