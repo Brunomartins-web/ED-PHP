@@ -45,8 +45,16 @@ echo "<br><br> O número ao quadrado é $numero";
     $curso = "Curso";
     $$curso = "Tecnologia Sistemas para Internet";
     echo "E o conteúdo de curso é $curso <br>";
-    echo "E o conteúdo de Curso é $curso ";
     ?>
 
+    <?php
+    $a = 10;
+    $b = 20;
+    
+    if ($a > $b) {
+        echo "A é maior que B";
+    }
+    
+    ?>
 </body>
 </html>
