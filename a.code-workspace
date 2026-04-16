@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "ED-PHP",
+			"path": "."
+		},
+		{
+			"name": "session.php",
+			"path": "../../../../xampp/htdocs/session.php"
+		}
+	],
+	"settings": {}
+}
